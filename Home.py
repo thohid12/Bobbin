@@ -105,7 +105,7 @@ def main():
         # If preview button is pressed, switch to another page
         if preview_button:
             #st.session_state.item_info.append(item_details)  # Store the item details on preview
-            st.switch_page("pages/bobbin1.py")
+            st.switch_page("pages/Invoice.py")
 
 if __name__ == "__main__":
     main()
